@@ -1,6 +1,6 @@
 # 前言
 
-Objective-C 屬於 C 語言的一個子類，-而 C 是一個靜態語言。（[什麼是動態語言與靜態語言](https://www.jianshu.com/p/898b7de664da)）
+Objective-C 屬於 C 語言的一個超集，而 C 是一個靜態語言。（[什麼是動態語言與靜態語言](https://www.jianshu.com/p/898b7de664da)）
 
 但是 OC 藉由 runtime 賦予這個語言一些動態性，讓我們可以在運行時動態的決定執行內容。當撰寫大型專案、框架或者為第三方庫添加特性時，runtime 能幫助我們很簡單的完成這些事。
 
