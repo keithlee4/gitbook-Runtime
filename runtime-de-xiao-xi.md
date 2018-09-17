@@ -15,7 +15,7 @@
 3. 如果找不到，往 `superclass` 找
 4. 一旦找到 `foo`，執行它的 `IMP`
 
-如果整個繼承樹搜尋完畢還無法完成消息轉發，系統變化執行 `doesNotRecognizeSelector:` 丟出 `unrecognized selector` 錯誤。
+如果整個繼承樹搜尋完畢還無法完成消息轉發，系統將執行 `doesNotRecognizeSelector:` 丟出 `unrecognized selector` 錯誤。
 
 ## 消息轉發
 
